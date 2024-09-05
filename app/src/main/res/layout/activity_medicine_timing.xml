@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:layout_marginTop="100dp"
+   android:paddingLeft="10dp"
+   android:paddingRight="10dp"
+   tools:context=".MedicineTiming">
+   <TableRow android:background="#0079D6" android:padding="5dp">
+      <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="Time of Medicine" />
+      <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="Yes/No" />
+   </TableRow>
+   <TableRow android:background="#DAE8FC" android:padding="5dp">
+      <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="Morning (Before Food)" />
+      <CheckBox
+         android:id="@+id/cb_m_bf"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="Y/N" />
+   </TableRow>
+   <TableRow android:background="#DAE8FC" android:padding="5dp">
+      <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="Morning(After Food)" />
+      <CheckBox
+          android:id="@+id/cb_m_af"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Y/N" />
+   </TableRow>
+   <TableRow android:background="#DAE8FC" android:padding="5dp">
+      <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="Afternoon(Before Food)" />
+      <CheckBox
+          android:id="@+id/cb_a_bf"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Y/N" />
+   </TableRow>
+   <TableRow android:background="#DAE8FC" android:padding="5dp">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Afternoon(After Food)" />
+      <CheckBox
+          android:id="@+id/cb_a_af"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Y/N" />
+   </TableRow>
+   <TableRow android:background="#DAE8FC" android:padding="5dp">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Night(Before Food)" />
+      <CheckBox
+          android:id="@+id/cb_n_bf"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Y/N" />
+   </TableRow>
+   <TableRow android:background="#DAE8FC" android:padding="5dp">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Night(After Food)" />
+      <CheckBox
+          android:id="@+id/cb_n_af"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Y/N" />
+   </TableRow>
+   <TableRow android:background="#DAE8FC" android:padding="5dp">
+      <Button
+          android:id="@+id/button_back"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:onClick="back2Main"
+          android:text="Back" />
+      <Button
+          android:id="@+id/button_save"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:onClick="saveTimingInfo"
+          android:text="Save" />
+   </TableRow>
+</TableLayout>

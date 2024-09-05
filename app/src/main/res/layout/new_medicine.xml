@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:id = "@+id/IdTable"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:layout_marginTop="100dp"
+   android:paddingLeft="10dp"
+   android:paddingRight="10dp"
+    android:background = "#DAE8FC">
+      <!--<TextView -->
+      <!--<Button xmlns:android="http://schemas.android.com/apk/res/android" -->
+      <Button
+         android:id="@+id/b_1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:tag="1"
+         android:text="Ibuprofen"
+         android:onClick="medicineTime"/>
+      <CheckBox
+          android:id="@+id/cb_m_1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:checked="false"
+          android:clickable="false" />
+      <CheckBox
+          android:id="@+id/cb_a_1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:checked="false"
+          android:clickable="false" />
+      <CheckBox
+          android:id="@+id/cb_n_1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:checked="false"
+          android:clickable="false" />
+   </TableRow>
